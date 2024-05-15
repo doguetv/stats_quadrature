@@ -16,8 +16,9 @@ Deux nouveaux jeux de données sont créés "data_regression_dataframe.csv" & "s
   /!\ Il a été choisi de conserver les données expérimentales et pas les données transformées suite aux tests de normalité pouyr les sous-groupes.<br>
 
 <h2>Etape 2: Régressions </h2>
-  Notebooks ==> stats_titouan_regression_whole.ipynb (exercice entier, basé sur le jeu de données "data_regression_dataframe.csv")<br>
-            ==> stats_titouan_regression_set1.ipynb (série 1 uniquement, basé sur le jeu de données "set1_regression_dataframe.csv")<br>
+  Notebooks
+    <li>stats_titouan_regression_whole.ipynb (exercice entier, basé sur le jeu de données "data_regression_dataframe.csv")</li>
+    <li>stats_titouan_regression_set1.ipynb (série 1 uniquement, basé sur le jeu de données "set1_regression_dataframe.csv")</li>
   <h3>Regressions simples</h3>
     Pour les deux jeux de données des regressions simples ont été réalisées pour le pool entier et pour les sous-groupes selon :<br>
       <li>1/ SWE_raw (variations absolues PRE-POST) comme variable dépendante et ['Activation', 'Lrelative, 'F_V', 'ForceRelative'] comme variables indépendantes.</li>
