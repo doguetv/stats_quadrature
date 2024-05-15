@@ -1,7 +1,7 @@
 # stats_quadrature
 
-Jeux de données:
-data.csv ==> Moyennes sur l'exercice
+Jeux de données:<br>
+data.csv ==> Moyennes sur l'exercice<br>
 set1.csv ==> Moyenne sur la série 1 unqiuement
 
 <h2>Etape 1: Test de normalité Shapiro-Wilk</h2>
