@@ -29,3 +29,6 @@ Deux nouveaux jeux de données sont créés "data_regression_dataframe.csv" & "s
       <li>2/ Les 3 meilleurs variables indépendantes sont conservées pour une regression multiple avec SWE (Dépendante) et (x3 Indep).</li>
       <li>3/ L'équation de la régression multiple est stockée dans deux nouveaux jeux de données ("data_[...]_coefficients.csv" & "set1_[...]_coefficients.csv").</li>
 <h2>Etape 3: Validation</h2>
+  Notebook ==> stats_titouan_validation.ipynb<br>
+  Les coefficients et les données expérimentales sont chargées dans un notebook.<br>
+  Des valeurs expérimentales de la variable dépendante (SWE) sont pris aléatoirement dans le jeux de données et sont comparées aux données de prédictions calculées   sur la base des équations sauvegardées dans l'étape précédente. 
