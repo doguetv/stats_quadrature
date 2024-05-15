@@ -31,4 +31,8 @@ Deux nouveaux jeux de données sont créés "data_regression_dataframe.csv" & "s
 <h2>Etape 3: Validation</h2>
   Notebook ==> stats_titouan_validation.ipynb<br>
   Les coefficients et les données expérimentales sont chargées dans un notebook.<br>
-  Des valeurs expérimentales de la variable dépendante (SWE) sont pris aléatoirement dans le jeux de données et sont comparées aux données de prédictions calculées   sur la base des équations sauvegardées dans l'étape précédente. 
+  Des valeurs expérimentales de la variable dépendante (SWE) sont pris aléatoirement dans le jeux de données et sont comparées aux données de prédictions calculées   sur la base des équations sauvegardées dans l'étape précédente.<br>
+  Pour chaque valeur expérimentale, la prédiction est réalisée selon 3 équations :
+    <li>Equation calculée sur l'intéraction MUSCLE*GROUPE</li>
+    <li>Equation calculée sur l Muscle uniquement</li>
+    <li>Equation calculée sur le Groupe uniquement</li>
